@@ -14,7 +14,7 @@ from Crypto.Cipher import PKCS1_OAEP
 def encrypt_file(key, in_filename, out_filename=None, chunksize=64*1024):
     """ Encrypts a file using AES (CBC mode) with the
         given key.
-        Adopted from Eli Bendersky's example:
+        Adapted from Eli Bendersky's example:
         http://eli.thegreenplace.net/2010/06/25/aes-encryption-of-files-in-python-with-pycrypto/
         Arguments:
             key             The encryption key - a string that must be

@@ -11,7 +11,7 @@ from Crypto.Cipher import PKCS1_OAEP
 
 def decrypt_file(key, in_filename, out_filename=None, chunksize=24*1024):
     """ Decrypts a file using AES (CBC mode) with the given key.
-        Adopted from Eli Bendersky's:
+        Adapted from Eli Bendersky's:
         http://eli.thegreenplace.net/2010/06/25/aes-encryption-of-files-in-python-with-pycrypto/
     Arguments:
         key             AES secret to decrypt the file.
